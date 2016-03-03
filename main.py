@@ -30,12 +30,12 @@ def main():
     parser.add_argument('-n',
                         '--numsteps',
                         type=int,
-                        default=14000,
+                        default=7000,
                         help='number of steps')
     parser.add_argument('-r',
                         '--restarts',
                         type=int,
-                        default=40,
+                        default=20,
                         help='number of restarts')
     # Array for all arguments passed to script
     args = parser.parse_args()
