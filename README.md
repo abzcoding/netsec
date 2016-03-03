@@ -3,11 +3,13 @@ NetSec
 
 ###Background Story
 
-It was dark and quiet , you were heading home. that day was possibly the worst day of your life, because [Mr Franklin][https://en.wikipedia.org/wiki/Benjamin_Franklin] had made you to stay till midnight to finish some works. and now your only hope was to get to bed as soon as possible and finish this day, you were sunk in your thought that they came , they had masks , you couldn’t see their faces , but they didn’t seem friendly , all of a sudden you’ve realized that you’re in big trouble , because they were [Paxton Boys][https://en.wikipedia.org/wiki/Paxton_Boys]!
+It was dark and quiet , you were heading home. that day was possibly the worst day of your life, because [Mr Franklin][franklin] had made you to stay till midnight to finish some works. and now your only hope was to get to bed as soon as possible and finish this day, you were sunk in your thought that they came , they had masks , you couldn’t see their faces , but they didn’t seem friendly , all of a sudden you’ve realized that you’re in big trouble , because they were [Paxton Boys][paxton]!
 you fought bravely but briefly!
-they had attacked [Mr Franklin][https://en.wikipedia.org/wiki/Benjamin_Franklin] and stole the encrypted text of the [Declaration of Independence][https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence] , but before extracting the key from him , he became Unconscious, so they reached to me to get ahold of the key, they gave a choice ; either decrypt the message , or face a horrible death…
+they had attacked [Mr Franklin][franklin] and stole the encrypted text of the [Declaration of Independence][independence], but before extracting the key from him , he became Unconscious, so they reached to me to get ahold of the key, they gave a choice ; either decrypt the message , or face a horrible death…
 
-
+[franklin]: https://en.wikipedia.org/wiki/Benjamin_Franklin
+[paxton]: https://en.wikipedia.org/wiki/Paxton_Boys
+[independence]: https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence
 
 ###Your Mission
 
