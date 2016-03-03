@@ -67,12 +67,13 @@ in order to crack the code there are currently one plugin available:
 - `-o, --output`
   - Output file
 - `-p, --plugin {steepestAscent}`
-  - plugin to use in decryption , right now only the [Gradient descent][https://en.wikipedia.org/wiki/Gradient_descent] is working
+  - plugin to use in decryption , right now only the [Gradient descent][decent] is working
 - `-n, --numsteps [7000]`
   - Number of steps that need to be taken before restart
 - `-r, --restarts [20]`
   - Specify of restarts.
-
+   
+[decent]: https://en.wikipedia.org/wiki/Gradient_descent  
 ### License MIT
 
 Project License can be found [here](LICENSE.md)
