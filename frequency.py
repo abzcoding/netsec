@@ -25,7 +25,6 @@ class Alephba(object):
             (key, val) = allmost[randint(0, 2)]
         else:
             (key, val) = Counter(allofthem).most_common(1)[0]
-        # print("[" + str(self.level) + "]" + key + "=>" + str(val))
         if self.level == 1:
             if val > 1:
                 return key

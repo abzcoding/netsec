@@ -82,7 +82,6 @@ class SteepestAscent(SubstitutionDecryptor):
                 content = newlines[i * 100:]
             else:
                 content = newlines[i * 100:(i * 100) + 100]
-            print(content)
             if content == "DONOTSEARCH":
                 continue
             msg = self.preProcessMessage(content)

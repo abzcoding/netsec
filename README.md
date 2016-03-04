@@ -19,6 +19,11 @@ Your life is at stake! you have to decrypt the message by any means possible!
 
 ##Usage
 
+please run [test.sh][testbash] for testing:
+```bash
+bash test.sh
+```
+[testbash]: https://raw.githubusercontent.com/abzcoding/netsec/master/test.sh
 ####Help
 
 ![help](https://raw.githubusercontent.com/abzcoding/netsec/master/files/help.gif)
@@ -47,9 +52,26 @@ in order to crack the code there are currently one plugin available:
 
 ```bash
 ➜ cat files/Aldrich_Ames.txt
+➜ echo "decryption using steepestAscent"
 ➜ python main.py -m decrypt -i files/August_Schluga.txt -o files/out.txt -n 14000 -r 40
 ➜ cat files/out.txt
 ➜ cat decrypt/possiblities.txt
+➜
+➜
+➜ echo "decrypting the Declaration of Independence using frequency calculation using letter freq"
+➜ python main.py -m decrypt -p frequency -i files/declaration.txt -o files/out.txt -n 1
+➜ echo "adding two letter words freq"
+➜ python main.py -m decrypt -p frequency -i files/declaration.txt -o files/out.txt -n 2
+➜ echo "adding three letter words freq"
+➜ python main.py -m decrypt -p frequency -i files/declaration.txt -o files/out.txt -n 3
+➜ echo "adding four letter words freq"
+➜ python main.py -m decrypt -p frequency -i files/declaration.txt -o files/out.txt -n 4
+➜ echo "adding optimization!"
+➜ python main.py -m decrypt -p frequency -i files/declaration.txt -o files/out.txt -n 11
+➜
+➜
+➜ echo "decrypting the Declaration of Independence using steepestAscent - ( Warning : this will take at least 12 minutes)"
+➜ python main.py -m decrypt -p steepestAscent -i files/declaration.txt -o files/out.txt -n 6000 -r 20
 ```
 
 ![decrypt](https://raw.githubusercontent.com/abzcoding/netsec/master/files/decrypt.gif)
@@ -68,11 +90,13 @@ in order to crack the code there are currently one plugin available:
   - Output file
 - `-p, --plugin {steepestAscent}`
   - plugin to use in decryption , right now only the [Gradient descent][decent] is working
-- `-n, --numsteps [7000]`
-  - Number of steps that need to be taken before restart
+- `-n, --numsteps [numSteps]`
+  - (Number of steps that need to be taken before restart) or (level of frequency {1: '1 lt',2: '1 & 2 lt',... , 11:'optimal'})
 - `-r, --restarts [20]`
   - Specify of restarts.
-   
+- `-v, --verbose`
+  - print out the result
+
 [decent]: https://en.wikipedia.org/wiki/Gradient_descent  
 ### License MIT
 
