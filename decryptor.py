@@ -2,7 +2,8 @@ import string
 import random
 import re
 ALPHABET = "abcdefghijklmnopqrstuvwxyz"
-
+LETTERFREQ = "etaoinsrhldcumfpgwybvkxjqz"
+OPTIMAL = "etonsairhdlucfmpgwbyvjkxqz"
 __author__ = "Abouzar Parvan <abzcoding@gmail.com>"
 
 
@@ -35,7 +36,7 @@ class SubstitutionDecryptor(object):
     def preProcessMessage(self, chars):
         return ''.join(re.findall('[a-z]+', chars.lower()))
 
-    def crack(self, msg, numSteps=7000, restarts=20):
+    def crack(self):
         return NotImplementedError
 
 
