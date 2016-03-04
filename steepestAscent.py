@@ -1,4 +1,4 @@
-#!/usr/bin/python
+from __future__ import print_function
 from tqdm import *  # NOQA
 import math
 import random
@@ -84,6 +84,7 @@ class SteepestAscent(SubstitutionDecryptor):
                 content = newlines[i * 100:(i * 100) + 100]
             if content == "DONOTSEARCH":
                 continue
+            print(content)
             msg = self.preProcessMessage(content)
             localMaxes = []
             startingKeys = [self.shuffler(ALPHABET)
