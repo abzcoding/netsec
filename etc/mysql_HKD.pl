@@ -1,15 +1,4 @@
 #!/usr/bin/perl
-
-# Legal Disclaimer
-# By using or accessing this script you are accepting all the terms of this Legal Disclaimer, User Agreement, Payment Agreement and Privacy Agreement of Computer Security Student, LLC. 
-# http://www.computersecuritystudent.com/START/LEGAL/lesson1/index.html
-# If you do not agree with anything in the above statement and link you should not use or access this script or website.
-# As a condition of your use of this Web site and script, you warrant to computersecuritystudent.com that you will not use this Web site or script for any purpose that is unlawful or that is prohibited by these terms, conditions, and notices.
-# In accordance with UCC § 2-316, this product is provided with "no warranties, either express or implied." The information contained is provided "as-is", with "no guarantee of merchantability."
-# In addition, this is a teaching website that does not condone malicious behavior of any kind.
-# You are on notice, that continuing and/or using this lab outside your "own" test environment is considered malicious and is against the law.
-# © 2015 No content replication of any kind is allowed without express written permission.
-
 $| = 1;
 
 use DBI;
